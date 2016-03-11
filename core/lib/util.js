@@ -610,6 +610,7 @@ angular.module('mm.core')
          * @return {Promise}         Promise resolved with the Moodle docs URL.
          */
         self.getDocsUrl = function(release, page) {
+            return 'http://www.quickertutor.com/help';
             page = page || 'Mobile_app';
 
             var docsurl = 'https://docs.moodle.org/en/' + page;
